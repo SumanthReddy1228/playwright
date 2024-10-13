@@ -14,4 +14,3 @@ test('first playwright test', async ({page})=>{
     await expect(page.locator("h3[data-test='error']")).toContainText("Username is required");
 
 });
-
