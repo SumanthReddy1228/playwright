@@ -11,5 +11,5 @@ test("child window handling", async ({browser})=>{
     ]);
     // await page.pause();
     const newPageText=await newPage.locator("a[class='btn btn-primary-shadow btn-block']").textContent();
-    console.log(newPageText);
+    console.log("New page Text: "+newPageText);
 })
